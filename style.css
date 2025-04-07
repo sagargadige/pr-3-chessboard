@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    background:linear-gradient(black,white);
+    display: flex;
+    height: 745px;
+}
+.box,.box1{
+    height: 80px;
+    width: 80px;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+    font-size: 42px;
+}
+.clear-float{
+   clear: both;
+}
+.box{
+    background-color: #a66d51;
+}
+
+.box1{
+    background-color:#d8aa81;
+}
+h1{
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
